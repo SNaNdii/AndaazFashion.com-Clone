@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* -------------nav_1----------------- */
+#nav_1{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+}
+#nav_1_1{
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav_1_1>img:nth-child(1){
+    height: 100%;
+}
+#nav_1_1>img:nth-child(2){
+    height: 70%;
+}
+#nav_1_1>p{
+    color: white;
+    margin-top: 2%;
+}
+
+
+#nav_1_2{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#nav_1_3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    margin-right: 5%;
+}
+#nav_1_3>img{
+    height: 60%;
+}
+#nav_1_3>h3{
+    color: white;
+}
+
+/**********************************/
+#account:hover{
+    cursor: pointer;
+    color: rgb(247, 7, 187);
+}
+.accountDetails{
+    display: none;
+    height: auto;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+#account:hover + .accountDetails{
+    display: block;
+    color: rgb(75, 74, 74);
+}
+/**********************************/
+
+#nav_1_3>p{
+    color: white;
+    font-size: 35px;
+}
+
+
+/* -------------nav_2----------------- */
+#nav_2{
+    display: flex;
+    height: 60px;
+    padding: 10px;
+}
+#nav_2>input{
+    margin-right: 20%;
+    width: 25%;
+    height: 30px;
+}
+#nav_2>img{
+    height: 40px;
+}
+
+/* -------------nav_3----------------- */
+#nav_3{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    height: 30px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+}
+#nav_3 h4:hover{
+    cursor: pointer;
+    color: rgb(247, 7, 187);
+}
+.hide {
+    display: none;
+    height: auto;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+}
+#box>div>h3{
+    margin-bottom: 10px;
+}
+#box>div>p{
+    margin-top: 10px;
+}
+#nav_3:hover + .hide {
+    display: block;
+    color: rgb(75, 74, 74);
+}
