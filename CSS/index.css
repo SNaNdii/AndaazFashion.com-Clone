@@ -30,13 +30,12 @@
     width: 100%;
     height: 40%;
     margin-top: -20px;
-    margin-bottom: 10px;
 }
 
 /*************TRENDING  NOW******************************/
 .heading{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 .trend{
     margin: auto;
@@ -92,4 +91,95 @@
     height: 60px;
     border: 0px;
     background-color: white;
+}
+#Best_Selling_Data{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
+/*****************SEARCH  FOR********************************/
+#line{
+    margin-top: 30px;
+    color: rgb(88, 88, 88);
+    font-size: 25px;
+}
+#searchFor{
+    display: grid;
+    grid-template-columns: repeat(5, 17%);
+    gap: 3%;
+}
+#searchFor>div{
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+    color: rgb(53, 53, 53);
+    border: 1px solid rgb(163, 163, 163);
+    padding: 15px 0px 15px 0px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/**********FOOTER************************************/
+#footer{
+    height: auto;
+    width: 100%;
+    border-top: 1px solid grey;
+    margin-top: 80px;
+}
+#F_email{
+    text-align: center;
+    margin-top: 80px;
+    color: grey;
+}
+#F_email p:nth-child(1){
+    font-size: 19px;
+}
+#F_email p:nth-child(2){
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+#F_email>div{
+    display: flex;
+    margin-left: 20%;
+}
+#F_email>div>input{
+    width: 70%;
+    height: 60px;
+    padding: 20px;
+    border: 1px solid black;
+}
+#F_email>div>div{
+    height: 60px;
+    width: 70px;
+    margin-left: -10px;
+    background-color: black;
+    text-align: center;
+    padding: 8px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+#f_Info{
+    display: grid;
+    grid-template-columns: repeat(4, 21%);
+    gap: 3%;
+    margin-top: 60px;
+}
+#f_Info>div{
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 12px;
+    margin-left: 10px;
+}
+#f_Info>div>div{
+    margin-bottom: 10px;
+}
+#f_Info>div>div:hover{
+    color: rgb(0, 195, 255);
+}
+#f_Info>div>.f_info_1st{
+    color: black;
+    font-size: 17px;
+    margin-bottom: 20px;
 }
