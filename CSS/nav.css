@@ -46,27 +46,20 @@
 #nav_1_3>h3{
     color: white;
 }
-
-/**********************************/
-#account:hover{
-    cursor: pointer;
-    color: rgb(247, 7, 187);
+#account{
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    border: 0px;
 }
-.accountDetails{
-    display: none;
-    height: auto;
-    width: 90%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: auto;
-    margin-top: 10px;
-    padding: 10px;
+#account>option{
+    background-color: white;
+    color: grey;
 }
-#account:hover + .accountDetails{
-    display: block;
-    color: rgb(75, 74, 74);
+#account>option:nth-child(2){
+    border: 2px solid grey;
 }
-/**********************************/
-
 #nav_1_3>p{
     color: white;
     font-size: 35px;
