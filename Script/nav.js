@@ -13,3 +13,4 @@ setInterval(function counter(){
         count++
     }
 }, 1500)
+

@@ -25,6 +25,29 @@
     border-radius: 50%;
 }
 
+/*************Local Bar******************************/
+#local_scroll{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    padding: 3  px;
+}
+#local_scroll>div{
+    width: 34%;
+    text-align: center;
+}
+#local_scroll>div:nth-child(2){
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+.explore > div{
+    color: grey;
+}
+.explore > a{
+    color: rgb(5, 151, 219);
+    text-decoration: none;
+}
+
 /*************POSTER******************************/
 #poster>img{
     width: 100%;
